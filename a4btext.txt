@@ -1,0 +1,39 @@
+package.json include
+command npm init
+create index.js, mongodb.js
+create student database on mongodb and feed data
+npm I mongodb
+npm I express
+node index.js
+MongoDB is a NoSQL database that stores data in flexible, JSON-like documents (BSON) rather than traditional rows and tables. It is designed for scalability, high availability, and performance.
+Here’s a one-line summary of MongoDB’s key features:
+
+Document-Oriented Storage: Stores data as flexible, JSON-like documents (BSON).
+Schema Flexibility: Allows dynamic, schema-less data models.
+Scalability: Supports horizontal scaling through sharding.
+Replication and High Availability: Ensures data redundancy and failover using replica sets.
+Aggregation Framework: Provides powerful tools for data processing and analysis.
+ACID Transactions: Supports multi-document transactions for consistency.
+Indexing: Speeds up queries with various index types.
+Geospatial Support: Enables storage and querying of location-based data.
+Flexible Data Model: Allows complex, nested data structures.
+Rich Query Language: Supports advanced queries with powerful operators.
+Cloud & On-Premise Deployment: Can be deployed on both cloud (via Atlas) and on local servers.
+
+
+ MongoDB, CRUD operations (Create, Read, Update, Delete) are essential for interacting with the database. Here's a quick guide to each operation:
+
+1. Create (Insert Data)
+insertOne(): Adds a single document to a collection.
+insertMany(): Adds multiple documents to a collection.
+2. Read (Query Data)
+find(): Retrieves documents from a collection based on a filter. It returns a cursor by default.
+findOne(): Retrieves a single document based on a filter.
+3. Update (Modify Data)
+updateOne(): Updates a single document that matches the filter.
+updateMany(): Updates multiple documents that match the filter.
+replaceOne(): Replaces a document entirely based on a filter.
+Example:
+4. Delete (Remove Data)
+deleteOne(): Deletes a single document based on a filter.
+deleteMany(): Deletes multiple documents based on a filter.
