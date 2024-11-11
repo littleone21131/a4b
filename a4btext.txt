@@ -37,3 +37,6 @@ Example:
 4. Delete (Remove Data)
 deleteOne(): Deletes a single document based on a filter.
 deleteMany(): Deletes multiple documents based on a filter.
+JSON (JavaScript Object Notation) is a lightweight data format used for storing and
+exchanging data, commonly between a server and a web application. It is easy to read and write,
+using key-value pairs and arrays. 
